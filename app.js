@@ -3,7 +3,7 @@ import 'dotenv/config';
 const phrases = ["Hi there!", "Nice to meet you.", "Welcome!", 
   "I'm glad you're here!", "Well played.", "Good morning.", "Hello.", "Good evening.",
  "Nice to meet you!", "Long time no see!", "We meet again...", "Thanks, as always",
- "Same here!", "Go easy on me!", "OK", "All righ!", "Please wait.", "Ready!", "Thank you for waiting.",
+ "Same here!", "Go easy on me!", "OK", "All right!", "Please wait.", "Ready!", "Thank you for waiting.",
  "I'll be away for a bit", "I'm back.", "I'm taking a break.", "I'll spectate.",
  "I'm gonna take a break.", "Please enter the ring.", "Please wait until the ring is full.",
  "Waiting for other participants.", "Please change teams.",
