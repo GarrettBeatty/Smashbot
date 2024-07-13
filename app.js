@@ -1,7 +1,4 @@
 import 'dotenv/config';
-import Groq from "groq-sdk";
-
-const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
 
 const phrases = ["Hi there!", "Nice to meet you.", "Welcome!", 
   "I'm glad you're here!", "Well played.", "Good morning.", "Hello.", "Good evening.",

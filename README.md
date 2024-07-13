@@ -1,1 +1,1 @@
-hi
+Chooses a random phrase to say in discord. has a 1/20 change of sending a reply
