@@ -15,7 +15,7 @@ const phrases = ["Hi there!", "Nice to meet you.", "Welcome!",
  "Let's really go for it!", "I'll end it here!", "I'll win this time!",
  "I can keep going!", "I've got you now!", "Our battle starts here!",
  "Let's have a good battle!", "I'm gonna go all out from the beginning!",
- "Edges don't scare me!", "Lose the battle, win the war, launc the opponent!",
+ "Edges don't scare me!", "Lose the battle, win the war, launch the opponent!",
  "Hear the roar of my full-force neutral attack!", "Going for a flashy attack!",
  "I'll take you on!", "Good!", "Good fight!", "Perfect!", "Nice", "Nice fight!",
  "Wonderful!", "Nicely done!", "I expected nothing less!", "Whoa",
@@ -66,6 +66,7 @@ function shouldRespond() {
 
 client.on('messageCreate', async message => {
   if (!message?.author.bot) {
+    // await message.channel.send("Connor is a :clown")
     let response = await generate_response(message.content)
     
     if (response) {
