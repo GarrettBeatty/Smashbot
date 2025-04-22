@@ -36,7 +36,6 @@ function getRandomIndex(max) {
 }
 
 export function generate_response(message) {
-
   const shouldReply = shouldRespond();
   if (shouldReply) {
     return phrases[getRandomIndex(phrases.length)];
